@@ -1,0 +1,71 @@
+<html>
+<head>
+	<title>JUSTIFICANTE</title> 
+<script src="jquery.mobile-1.4.5/jquery.mobile-1.4.5.js"></script>
+</head>
+
+<body>
+
+<form action="insertar.php" method="post" enctype="multipart/form-data" >
+	<h1 align = 'center'>CENTRO DE BACHILLERATO TECNOLOGICO AGROPECUARIO 172</h1>
+	<p align='center'> "Gral. Calixto Contreras Espinoza" </p>
+	<H2 align = 'center'>"ASUNTO OFICIAL"</H2>
+	<p align='center'> JUSTIFICANTE DE INASISTENCIA DE ALUMNOS <p align="right">
+</form>		
+
+	 	
+
+			 	<div align="right">
+			 		<button>
+			 	<a href="/justificantes/buscar/buscar1/buscae.php">CONSULTAR</a> 
+			 		</button>
+				</div>
+
+		
+	
+  </br>
+<form action="insertar.php" method="post" enctype="multipart/form-data" >
+<fieldset>
+			Rodeo, Dgo. A <input type="date" size="3" maxlength="2" id="rodeoa" name="fecha" />  </p>
+<h3>C. CATEDRATICO DEL CBTA 172</h3> 
+
+<p> Se solicita justifique la inasistencia del alumno(a): <input name="nombre" type="text"/><label for="so"> Del grupo </label><select id="area" name="grupo"> <option value="" selected="selected">- selecciona -</option>
+<option value="I">I </option>
+<option value="II">II</option> 
+<option value="III">III </option>
+<option value="IV">IV</option> 
+<option value="V">V</option>
+<option value="VI">VI</option> 
+</select><br/>
+
+<P> El dia(s):<input name="f_inicio" type="date"/> A: <input name="f_fin" type="date"/> De: <input name="hora_inicio" type="time"/> A <input name="hora_fin" type="time"/> </p>
+</select> 
+
+Por motivo de: <select id="opt" class="form-control" name="motivo">   
+				  		<option>Salud</option>
+				  		<option>Personal</option>
+				  		<option>Familiar</option>
+				  		<option>Otro</option>
+
+				</select>
+				
+			  	 Numero de control <input name="No_control" type="text"/></label><br/>
+<P>NOMBRE Y FIRMA DEL SOLICITANTE_________________________________________________</P>
+<br/> 
+<p ALIGN=center>ATENTAMENTE</P>
+	<P ALIGN=center>ADELINA IBARRA GALVAN</p>
+		<P ALIGN=center>ORIENTACION EDUCATIVA</p>
+</select>
+</fieldset>
+
+		
+<br/> 
+<p ALIGN=center><input type="submit" value="ACEPTAR" /></p> 
+ 
+</form>
+<p align= center>
+<input type="button" value="IMPRIMIR" onClick="window.print()">
+</p>
+</body>
+
+</html>
